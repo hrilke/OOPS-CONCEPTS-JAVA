@@ -1,0 +1,26 @@
+Why do programming languages exists ?
+-> Programming language helps programmers express logic in machine understandable manner in order to solve business problems.
+
+Why OOP language exits ?
+-> Procedural programming language like C is a programming paradigm that uses sequence of steps to solve a problem.
+-> OOP languages can replicate real world objects into programming considering its properties/attributes and behaviours/methods.
+-> The structure of OOP language codebase enables more maintainable, readable codebase.
+
+What is OOPs ?
+-> OOPs is all about Achieving ABSTRACTION by implementing ENCAPSULATION, POLYMORPHISM and INHERITANCE(3 pillars).
+
+    ~ ABSTRACTION : It is an process of hiding implementation from the user. User can interact with the process using input and outputs.
+      Example. Car Engine: User may not know the internal working how engine starts, However User can push start button as an input
+                           and engine start as an output. Here User do not care about internal working rather than starting a car.
+
+What is Encapsulation ?
+->  Encapsulation is a process of storing data members using object inside a class and to restrict access to the data stored by outside environment
+    using access modifiers.
+
+    Object is an instance of a class.  (Swift, Polo, WagonR)
+    Class is a blueprint of a object.  (Blueprint of Car)
+
+What are Access Modifiers ?
+    1. Public : Accessible everywhere.
+    2. Private : Accessible inside same class only.
+    3. Default : Accessibly only

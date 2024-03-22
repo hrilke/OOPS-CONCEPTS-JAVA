@@ -1,0 +1,14 @@
+What is constructor ?
+    -> It is a piece of code inside a class which creates instance / object and initializes the attributes to the same object of that class.
+    -> Java identifies constructor based on the attributes that are passed, and also in what sequence.
+       How to identify : It has same name as class and without any return type.
+
+Types of constructor :
+
+
+    -> Default Constructor : Creates an object and Initializes Default values to attributes of that object.
+                             (Comes with class)
+
+    -> No argument constructor : Creates an object with some fixed values given inside body as the attributes.
+
+    -> Parameterized Constructor : Creates an object and Initializes values derived from the input given.
