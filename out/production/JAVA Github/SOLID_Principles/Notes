@@ -1,0 +1,38 @@
+What are SOLID Principles ?
+-> These are set of guidelines to follow
+
+    S - Single Responsibility Principle
+    O - Open Closed Principle
+    L - Liskov Substitution Principle
+    I - Interface Segregation Principle
+    D - Dependency Inversion Principle
+
+
+    ~ S - Single Responsibility Principle
+        Every code unit  (class/ method/ block/ package) should always have exactly 1 responsibility.
+
+        Ways to identify :
+            Any Code unit having multiple responsibilities and if it does hold any business logic in that will imply in SRP violation.
+
+            i) Method with multiple if/else statements.
+           ii) Monster Methods.
+          iii) Common utility packages.
+
+    ~ O - Open Closed Principle
+        Codebase should be Open for extensions but Closed for modification.
+        Always add new features in your code, but never change existing part of code.
+        In a nutshell, the developer must need to change only a specific part of the code (a class or a function) every time a requirement changes.
+
+    ~ L - Liskov Substitution Principle
+        We should be able to use object of any child class in place of parent reference variable without any special treatment.
+        example : Bird b = new Pigeon();
+
+    ~ I - Interface Segregation Principle
+        We should follow SRP inside interfaces.
+        Interface must have method or set of method that is collectively taking responsibility of only 1 task.
+        example : A sparrow can run and fly both, So should implement both interfaces runnable and flyable independently.
+                  If Sparrow implements RunnableAndFlyable in a single interface, this tends to ISP violation.
+
+    ~ D - Dependency Inversion Principle
+        Two concrete classes should never depend on each other directly, they may depend indirectly i.e. via abstract class/ Interface.
+        In order to solve this problem we need to use Strategy Design Pattern.

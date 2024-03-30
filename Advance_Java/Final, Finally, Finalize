@@ -1,0 +1,12 @@
+Final Keyword : It makes things constant.
+
+-> final class : Inheritance is not possible as the class cannot be extended further and no other class can inherit from it.
+-> final attribute : Value of this attribute remains constant, cannot be changed. used to define constant like PI.
+-> final method : Such method cannot be overridden by subclass.
+
+
+Finally Keyword : This is a block of code used with try catch blocks, which executes always. Irrespective of Exception thrown or not.
+                  Used for clearing resources, files, releasing databases.
+
+Finalize Keyword :This method is called before the objects of that class are destroyed by garbage collector.
+                  Used for passing messages/ logs.

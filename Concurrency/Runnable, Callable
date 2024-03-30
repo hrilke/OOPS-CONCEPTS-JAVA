@@ -1,0 +1,16 @@
+What is Runnable Interface ?
+-> Runnable is an interface that enables multithreading of a task.
+   A class that implements runnable interface must implement the task inside void run() method.
+
+What is callable Interface ?
+-> Callable is an interface that enables multithreading of a task that can return a result with specified datatype.
+   A clas that implements Callable interface must implement the task inside "return type" call() method.
+
+
+    Difference :
+
+Aspect	                             Runnable	                                        Callable
+Return Value	                No return value (void)	                          Returns a result of type V
+Exception Handling	            Cannot declare checked exceptions directly	      Can declare checked exceptions (Exception)
+Usage with Executors	        Commonly used with Executor framework	          Also used with Executor framework, with additional functionality
+Java Generics	                Not parameterized with a type	                  Parameterized with a type (V)

@@ -1,6 +1,7 @@
 package OOPs_Concepts;
 
 public class Car {
+    public static double PI = 3.14;
     private int registrationNumber;
     protected String name;
     public String manufacturer;

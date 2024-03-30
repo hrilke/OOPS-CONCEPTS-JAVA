@@ -21,6 +21,29 @@ What is Encapsulation ?
     Class is a blueprint of a object.  (Blueprint of Car)
 
 What are Access Modifiers ?
-    1. Public : Accessible everywhere.
-    2. Private : Accessible inside same class only.
-    3. Default : Accessibly only
+    1. Private : Accessible inside same class only.
+    2. Default : Accessibly within same package.
+    3. Protected : Accessible outside the package and inside child classes.
+    4. Public : Accessible everywhere.
+
+Whether Java call by value or call by reference ?
+-> JAVA IS ALWAYS CALL BY VALUE.
+    -> Objects are stored in HEAP memory.
+        -> Primitive variables and reference variables are stored in stack.
+
+    ~ call by value
+        example: you transferred Rs 50 (value) to your wife for some purchase.
+                 purchase will not affect your account in this case.
+
+    ~call by Reference
+        example: you allowed your wife to access your (reference) account for some purchase.
+                 purchase will directly affect your account in this case.
+
+
+Memory allocation behaviour in java data types:
+    Primitive Data types : Both Primitive reference and value assigned to the variable is store inside stack.
+
+    Non-Primitive Data Types : Reference Variables will go inside stack and store address pointing towards object in heap
+                               and Object is stored inside heap with data members at the referenced address.
+
+    Strings :

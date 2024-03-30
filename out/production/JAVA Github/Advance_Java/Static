@@ -1,0 +1,8 @@
+Static Keyword : When applied to a class attribute or method,
+                 it means that the attribute or method belongs to the class itself,
+                 rather than to instances (objects) of the class.
+
+static attribute : This attribute has only one instance across the objects of its class.
+                   It can be accessed from the class as it is class level attribute.
+
+static Method : This method belongs to the class can be called using class without an object.
