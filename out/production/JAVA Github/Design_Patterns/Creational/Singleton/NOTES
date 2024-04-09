@@ -1,0 +1,17 @@
+What is Singleton Design Pattern ?
+-> Singleton Design Pattern is creational design pattern that restricts instantiation of a class to a Single Object.
+
+When to use ?
+-> It is used when we need to enforce single object to be created.
+
+How to implement Singleton DP ?
+-> 1. Constructor Hiding : Make constructor Private to restrict object creation from outside.
+
+   2. Shared Instance : Create a class level variable that holds the single instance of the class.
+
+   3. Global Access Point : Implement a class level method to instantiate the object if doesn't exists
+      or return the object stored in class level variable that exists.
+
+   4. Avoid Synchronization problem : While Implementing above method we need to use Synchronised and
+      Double-Checked Locking to make it thread safe.
+
