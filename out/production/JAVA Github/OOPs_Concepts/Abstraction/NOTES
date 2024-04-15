@@ -1,0 +1,12 @@
+Difference Between Abstract Class and Interfaces
+
+Feature	                Abstract Class	                                                        Interface
+Instantiation	        Cannot be instantiated on its own.	                        Cannot be instantiated on its own.
+Method Implementation	Can have both abstract and concrete methods.	            Can only have abstract methods and default/static methods.
+Inheritance	            Supports single class inheritance.	                        Supports multiple interface inheritance.
+Constructor	            Can have constructors.	                                    Cannot have constructors.
+Access Modifiers	    Can have access modifiers (public, protected, private).	    Methods are implicitly public.
+Fields	                Can have fields.	                                        Cannot have fields.
+Code Reusability	    Provides code reusability through inheritance.	            Provides code reusability through implementation.
+Use Case	            Used when you want to define a common base for              Used when you want to define a contract for classes to
+                        multiple subclasses and provide a default implementation.	implement, allowing for multiple implementations of the same contract.

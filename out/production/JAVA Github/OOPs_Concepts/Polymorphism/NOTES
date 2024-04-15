@@ -1,0 +1,18 @@
+Polymorphism is Basically an ability of doing same thing in different ways i.e Multiple forms.
+
+PPolymorphism in Java is mainly divided into two types.
+    * Compile-time polymorphism
+    * Runtime polymorphism
+ -Compile-time polymorphism can be achieved by method overloading, and Runtime polymorphism can be achieved by method overriding.
+
+
+Method Overloading : Compile-Time Polymorphism
+    -Multiple Methods inside the same class with same Method name but
+    different Number of parameters and sometimes same number of parameters in different orders.
+
+Method Overriding : Runtime Polymorphism
+    -Methods having exactly same method signatures belonging to Parent class and Child class helps in
+     method overriding.
+    -In other words,  an overridden child class method is called through its parent's reference. Then the method is
+     evoked according to the type of object. In runtime, JVM figures out the object type and the method belonging to that object.
+    -Runtime Polymorphism is only possible when the class are interrelated by th virtue of inheritance.
