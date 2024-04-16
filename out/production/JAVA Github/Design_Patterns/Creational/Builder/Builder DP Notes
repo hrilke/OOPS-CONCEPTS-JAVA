@@ -1,0 +1,27 @@
+What is Builder DP ?
+-> Builder is a creational design pattern that lets you construct complex objects step by step.
+
+When to use ?
+-> 1) In case of instantiating complex object having multiple parameters.
+      Can be used instead of Telescoping constructor anti-patterns.
+   2) When Immutable objects need to be created.
+   3) In case of a need to validate parameters before constructing the object.
+
+How to Implement ?
+-> Step 1.1 Create static inner class termed as builder class with all necessary parameters of Outer class.
+        1.2 Implement Setter Methods that sets the parameter & returns the same builder object.
+        1.3 Implement validation methods if necessary.
+        1.4 Implement build() method and invoke validation methods before returning new Outer class Object.
+
+   Step 2.1 Implement private parameterized Constructor for Outer class that takes builder class object as parameter.
+        2.2 Implement static Outer class method that return new builder object.
+
+   Step 3 Method Chaining: While Creation of the complex object Call class level method builder() and
+          chain with setter methods of necessary parameter and finally build() method.
+
+* Static Nested Classes: When you declare a nested class as static, it becomes a static nested class.
+    This means that it's associated with the outer class itself rather than with instances of the outer class.
+    You can access a static nested class using the syntax OuterClass.StaticNestedClass.
+
+* Chained Method Calls: The builder pattern often utilizes chained method calls (also known as method chaining)
+    to set the attributes of the object being built. This makes the code more readable and fluent.
