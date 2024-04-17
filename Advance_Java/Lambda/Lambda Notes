@@ -1,0 +1,27 @@
+What is Lambda Expression ?
+->  A lambda expression in Java is a concise way to represent an anonymous function a function without a name
+    that can be passed around as a parameter to other methods or stored in variables.
+    It provides a way to write more readable and maintainable code by reducing boilerplate code when working with
+    functional interfaces.
+
+When to use ?
+-> Lambda expressions are primarily used with functional interfaces,
+   which are interfaces with a single abstract method.
+   They provide a way to pass behavior as data, enabling a more functional programming style in Java.
+
+How to Implement ?
+->
+   Lambda expressions consist of the following parts:
+
+   Parameters:
+   No Parameters : Empty Parenthesis () ->
+   1 Parameter : No Parenthesis param ->
+   Multiple Parameters : Comma separated inside Parenthesis (param1, param2) ->
+
+   Arrow Operator (->):
+   This separates the parameter list from the body of the lambda expression.
+   It's read as "goes to" or "maps to".
+
+   Body: This is the implementation of the lambda expression.
+   It can be a single expression or a block of code enclosed within curly braces {}.
+
