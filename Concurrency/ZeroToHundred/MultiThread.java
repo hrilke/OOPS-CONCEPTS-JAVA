@@ -5,9 +5,8 @@ public class MultiThread implements Runnable{
     public MultiThread(int i) {
         this.num = i;
     }
-
     @Override
     public void run(){
-            System.out.println(num + " Printed by : "+Thread.currentThread().getName());
+        System.out.println(num + " Printed by : "+Thread.currentThread().getName());
     }
 }

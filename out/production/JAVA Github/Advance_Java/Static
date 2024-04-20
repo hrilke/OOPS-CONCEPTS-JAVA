@@ -6,3 +6,20 @@ static attribute : This attribute has only one instance across the objects of it
                    It can be accessed from the class as it is class level attribute.
 
 static Method : This method belongs to the class can be called using class without an object.
+
+static with Nested class : It is a class that is created inside a class. It can be accessed by outer class name.
+
+
+Difference Between : Static Method and Instance Method
+
+Feature	                    Static Method	                                            Instance Method
+Invocation	    Invoked using class name (e.g., ClassName.method())	            Invoked using object instance (e.g., object.method())
+Access	        Cannot access instance variables directly	                    Can access instance variables directly
+Access	        Can access static variables directly	                        Can access static variables directly
+Access	        Cannot use this keyword	                                        Can use this keyword to refer to the current object
+Utility	        Typically used for operations not dependent on instance state	Typically used for operations dependent on instance state
+Dependency	    Not tied to any particular instance	                            Operates on a specific instance
+Usage	        Can be called without creating an object of the class	        Requires creation of an object to call the method
+Memory	        Only one instance of the method exists in memory	            Each object has its own copy of the method
+Overriding	    Cannot be overridden	                                        Can be overridden
+Polymorphism	Not polymorphic	                                                Can exhibit polymorphic behavior when overridden

@@ -1,0 +1,24 @@
+What are Streams ?
+-> It is one of the major new feature introduced in java 8.
+   It is a way to write more declarative code with minimal lines.
+   It is used to process collection of objects.
+   It involves sequence of methods performing a task by implementing method chaining.
+
+How to create Stream ?
+-> Collections : List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+                 Stream<Integer> stream = numbers.stream();
+
+   Arrays : int[] numbers = {1, 2, 3, 4, 5};
+            IntStream stream = Arrays.stream(numbers);
+
+   Stream.of :  Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5);
+
+Types of Operations :
+
+Intermediate Operations: These operations are used to transform the stream into another stream.
+   They are lazy, which means that they are not executed until a terminal operation is invoked on the stream.
+   Some examples of intermediate operations are filter(), map(), sorted(), distinct(), limit(), and skip().
+
+Terminal Operations: These operations are used to produce a result from a stream.
+   They are eager, which means that they are executed immediately. Some examples of terminal operations
+   are forEach(), count(), collect(), reduce(), min(), max(), anyMatch(), allMatch(), and noneMatch().
