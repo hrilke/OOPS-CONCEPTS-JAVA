@@ -1,0 +1,7 @@
+Strings are immutable in JAVA : Thumb Rule
+    WHY : Memory optimization, to avoid duplication
+    WHERE : Saved in String pool
+    HOW : Same unique string will be used by multiple reference variables.
+
+    ## Once String created cannot be modified, instead new String will be created inside String pool.
+    Forcefully SHALLOW copied if same String created with new reference variable.
